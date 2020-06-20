@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BasicLauncher</string>
+    <string name="widget">Widget</string>
+    <string name="shortcut">Shortcut</string>
+    <string name="theme">Icon Theme</string>
+    <string name="remove_icon">Remove</string>
+    <string name="cancel_icon">Cancel</string>
+    <string name="add_widget">Add Widget</string>
+    <string name="add_shortcut">Add Shortcut</string>
+    <string name="apply_icon_theme">Apply Icon Theme</string>
+    <string name="add_to_home">Add To Home</string>
+    <string name="add_to_fav">Add To Favorites</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="app_info">App Info</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="fav_app_title">Favorite Apps</string>
+    <string name="fav_app_remove">Remove From Favorites</string>
+</resources>

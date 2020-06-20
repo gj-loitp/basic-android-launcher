@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout_popupHome">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:padding="10dp"
+        android:textColor="#9E9E9E"
+        android:text="Select Action"/>
+
+    <LinearLayout
+        android:id="@+id/app_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/app_info_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/materialBlack"
+            android:text="@string/app_info"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/uninstall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/uninstall_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/materialBlack"
+            android:text="@string/uninstall"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_to_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/add_to_home_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/materialBlack"
+            android:text="@string/add_to_home"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_to_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/fav_app_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/materialBlack"
+            android:text="@string/add_to_fav"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cancel_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/cancel_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/materialBlack"
+            android:text="@string/cancel_icon"/>
+
+    </LinearLayout>
+
+</LinearLayout>
