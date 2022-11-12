@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BasicLauncher.iml" filepath="$PROJECT_DIR$/BasicLauncher.iml" group="BasicLauncher" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BasicLauncher/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic-android-launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/basic-android-launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/basic-android-launcher.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/basic-android-launcher.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/basic-android-launcher.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/basic-android-launcher.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/basic-android-launcher.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/basic-android-launcher.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/basic-android-launcher.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/basic-android-launcher.app.unitTest.iml" />
     </modules>
   </component>
 </project>
